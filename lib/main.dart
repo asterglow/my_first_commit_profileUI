@@ -7,7 +7,7 @@ void main(List<String> args) {
   runApp(
     MaterialApp(
       home: Scaffold(
-          backgroundColor: Color.fromARGB(255, 25, 33, 37),
+          backgroundColor: Color.fromARGB(255, 59, 74, 82),
           body: Stack(
             alignment: AlignmentDirectional.center,
             children: [
@@ -40,7 +40,7 @@ void main(List<String> args) {
                       padding: EdgeInsets.all(12),
                       height: 45, width: 275,
                       decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 240, 240, 90),
+                        color: Color.fromARGB(255, 255, 255, 135),
                         borderRadius: BorderRadius.all(
                           Radius.circular(20),
                         ),
@@ -126,7 +126,7 @@ class Ui_Item extends StatelessWidget {
       height: 45,
       width: 275,
       decoration: BoxDecoration(
-        color: Colors.grey,
+        color: Color.fromARGB(255, 146, 146, 146),
         borderRadius: BorderRadius.all(
           Radius.circular(20),
         ),
